@@ -96,7 +96,7 @@ const contactInfo = [];
 const unisWithUni = []
    graduates.forEach((i) => {  
    if (i.university.includes('Uni')){
-   unisWithUni.push(i.university)}
+   unisWithUni.push(i)}
 });
    console.log(unisWithUni);
 
