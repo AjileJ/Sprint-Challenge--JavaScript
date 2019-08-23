@@ -5,7 +5,7 @@
 /* == Step 1: Base Constructor ==
   Create a constructor function named CuboidMaker that accepts properties for length, width, and height
 */
-  function cuboidMaker{
+  function CuboidMaker{
     constrctor(attr){
       this.length = attr.length;
       this.width = attr.width;
@@ -36,7 +36,7 @@
   Create a cuboid object that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
-const newCuboid = new cuboidMaker({
+const newCuboid = new CuboidMaker({
   length : 4,
   width : 5,
   height :5,
